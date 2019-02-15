@@ -5,7 +5,7 @@ A collection of the projects I have made for freeCodeCamp's various certificatio
 ## Projects By Certification
 
 1. Responsive Web Design
-    - [Tribute Page](https://github.com/chris-tse/responsive-web-design/tribute-page/)
+    - [Tribute Page](./responsive-web-design/tribute-page/)
     - Survey Form
     - Product Landing Page
     - Technical Documentation Page
