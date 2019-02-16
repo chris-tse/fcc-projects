@@ -6,7 +6,7 @@ A collection of the projects I have made for freeCodeCamp's various certificatio
 
 1. Responsive Web Design
     - [Tribute Page](./responsive-web-design/tribute-page/)
-    - Survey Form
+    - [Survey Form](./responsive-web-design/survey-form/)
     - Product Landing Page
     - Technical Documentation Page
     - Personal Portfolio Webpage
