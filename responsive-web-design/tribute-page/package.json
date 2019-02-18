@@ -1,0 +1,12 @@
+{
+  "name": "tribute-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch styles.sass:styles.min.css --style compressed",
+    "build": "sass styles.sass styles.min.css --style compressed"
+  },
+  "author": "Christopher Tse",
+  "license": "ISC"
+}
