@@ -1,0 +1,119 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #333;
+  color: white;
+}
+
+.fa {
+  font-size: 50px;
+}
+
+.left-pad {
+  padding-left: 10px;
+}
+
+.right-pad {
+  padding-right: 10px;
+}
+
+.App-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.App-header h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.row.grouped {
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.col {
+  text-align: center;
+}
+
+.col a {
+  color: white;
+  text-decoration: none;
+}
+
+.Control {
+  font-size: 30px;
+  line-height: 1;
+  vertical-align: center; 
+  -webkit-user-select: none;
+  user-select: none; 
+}
+
+.Control a.ControlBtn {
+  transition: all 0.3s ease;
+  border: 1px white solid;
+  border-radius: 50%;
+  padding: 5px 12px;
+  font-family: Consolas, monospace;
+}
+
+.Control a.ControlBtn:hover {
+  background: white;
+  color: #333;
+}
+
+.Control a.ControlBtn.minus {
+  margin-right: 15px;
+}
+
+.Control a.ControlBtn.plus {
+  margin-left: 15px;
+}
+
+.Timer {
+  padding-top: 30px;
+}
+
+.Timer p {
+  height: 35px;
+  font-size: 30px;
+}
+
+#minute, #second {
+  font-size: 90px;
+}
+
+@media(max-width: 768px) {
+  .App-header {
+    padding-bottom: 10px;
+  }
+
+  .App-header h1 {
+    font-size: 40px;
+  }
+  .row {
+    flex-direction: column;
+  }
+
+  .col {
+    margin-bottom: 25px;
+  }
+
+  .Control {
+    font-size: 20px;
+  }
+
+  .Control a.ControlBtn {
+    padding: 5px 10px;
+  }
+}
